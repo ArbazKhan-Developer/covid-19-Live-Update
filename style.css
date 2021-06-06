@@ -128,9 +128,10 @@ html{
         margin-top: 2rem;
         background-color: #000;
         font-size: .9rem;
-        color: white;
+        color: rgb(196, 184, 184);
         border-radius: 8px;
         width: 25rem;
+        margin-left: .5rem;
     }
     .img{
         height: 2.5rem;
@@ -149,5 +150,20 @@ html{
     }
     .fade{
         width: 115vw;
+    }
+    .live a{
+        margin-left: .5rem;
+    }
+    .para1{
+        margin-left: .5rem;
+    }
+    .img{
+        margin-left: .5rem;
+    }
+    .fetchbtn button{
+        margin-left: .5rem;
+    }
+    #foot{
+        margin-left: 3.8rem;
     }
 }
