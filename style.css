@@ -7,10 +7,37 @@ html{
 #anch{
     font-size: 3rem;
     font-weight: bold;
+    color:red;
+    animation: nave .8s infinite alternate;
 }
-.live{
-    font-size: 'rubik';
+@keyframes nave {
+    from{}
+    to{
+        color:white;
+    }
+}
+.live a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+}
+.live a{
+    display: block;
+    font-family: 'rubik';
     font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: red;
+    background-color:#000;
+    width: 15rem;
+    border-radius: 8px;
+    animation: live 1s  infinite alternate;
+}
+@keyframes live {
+    from{}
+    to{color:white;
+        background-color: red;
+    }
 }
 
 #foot{
@@ -30,8 +57,51 @@ html{
     background-color: #6a7ae2;
 
 }
+#clock{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    background-color: #000;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 8px;
+    width: 45rem;
+}
+.fetchbtn button:hover{
+    color: red;
+}
+.fetchbtn button{
+    background-color: #000;
+    color: white;
+    border-radius: 8px;
+    font-family: 'rubik'!important;
+    text-transform: uppercase;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    border: none !important;
+
+}
+.para1{
+    margin-top: 2rem;
+    font-family: 'rubik';
+    font-size: 1.5rem;
+    
+}
+
 @media screen and (max-width:500px) {
     #anch{
         font-size: 2rem;
+    }
+    #clock{
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        background-color: #000;
+        font-size: .9rem;
+        color: white;
+        border-radius: 8px;
+        width: 25rem;
     }
 }
