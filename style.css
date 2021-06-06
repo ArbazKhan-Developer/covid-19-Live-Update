@@ -41,7 +41,7 @@ html{
 }
 
 #foot{
-    margin-top: 30rem;
+    margin-top: 7rem;
     font-family: 'rubik';
 }
 #foot a{
@@ -54,7 +54,7 @@ html{
 
 }
 #foot a:hover{
-    background-color: #6a7ae2;
+    background-color: red;
 
 }
 #clock{
@@ -89,6 +89,34 @@ html{
     font-size: 1.5rem;
     
 }
+.para1 span{
+    font-size: 1rem;
+    color: red;
+    border: 1px solid rgb(65, 235, 13);
+    border-radius: 5px;
+    font-family: 'rubik';
+
+}
+.img{
+    display: flex;
+    height: 4rem;
+    width: 5rem;
+    margin-top: 1rem;
+    animation: imgs 1s  infinite alternate;
+}
+@keyframes imgs {
+    from{}
+    to{height: 4.2rem;
+        width: 5.2rem;
+    }
+}
+.image{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;    
+}
+
 
 @media screen and (max-width:500px) {
     #anch{
@@ -103,5 +131,23 @@ html{
         color: white;
         border-radius: 8px;
         width: 25rem;
+    }
+    .img{
+        height: 2.5rem;
+        width: 3rem;
+        animation: imgs 1s  infinite alternate;
+    }
+    @keyframes imgs {
+        from{}
+        to{height: 2.7rem;
+            width: 3.2rem;
+        }
+    }
+    #navbar{
+        /* display: block; */
+        width: 136vw !important;
+    }
+    .fade{
+        width: 135vw;
     }
 }
