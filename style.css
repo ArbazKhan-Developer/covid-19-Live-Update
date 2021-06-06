@@ -144,8 +144,8 @@ html{
             width: 3.2rem;
         }
     }
-    #navbar{
-        /* display: block; */
+     /* #navbar{
+         display: block; 
         width: 120vw !important;
     }
     .fade{
@@ -165,5 +165,5 @@ html{
     }
     #foot{
         margin-left: 3.8rem;
-    }
-}
+    } */
+} 
