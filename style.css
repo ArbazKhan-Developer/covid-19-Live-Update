@@ -145,9 +145,9 @@ html{
     }
     #navbar{
         /* display: block; */
-        width: 120vw !important;
+        width: 115vw !important;
     }
     .fade{
-        width: 120vw;
+        width: 115vw;
     }
 }
