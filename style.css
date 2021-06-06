@@ -1,0 +1,37 @@
+html{
+    font-family: 'Rubik';
+}
+*{
+    font-family: 'Rubik';
+}
+#anch{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.live{
+    font-size: 'rubik';
+    font-weight: bold;
+}
+
+#foot{
+    margin-top: 30rem;
+    font-family: 'rubik';
+}
+#foot a{
+    
+    font-size: 1.5rem;
+    margin-top: -1rem;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
+#foot a:hover{
+    background-color: #6a7ae2;
+
+}
+@media screen and (max-width:500px) {
+    #anch{
+        font-size: 2rem;
+    }
+}
