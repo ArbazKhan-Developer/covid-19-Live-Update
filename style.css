@@ -146,22 +146,22 @@ html{
     }
     #navbar{
         /* display: block; */
-        width: 115vw !important;
+        width: 120vw !important;
     }
     .fade{
-        width: 115vw;
+        width: 120vw;
     }
     .live a{
-        margin-left: 1.5rem;
+        margin-left: 3.5rem;
     }
     .para1{
-        margin-left:1.5rem;
+        margin-left:3.5rem;
     }
     .img{
-        margin-left: 1.5rem;
+        margin-left: 3.5em;
     }
     .fetchbtn button{
-        margin-left: 1.5rem;
+        margin-left: 3.5rem;
     }
     #foot{
         margin-left: 3.8rem;
