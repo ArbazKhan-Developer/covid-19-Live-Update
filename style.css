@@ -102,12 +102,12 @@ html{
     height: 4rem;
     width: 5rem;
     margin-top: 1rem;
-    animation: imgs 1s  infinite alternate;
+    animation: imgs 2s  infinite alternate;
 }
 @keyframes imgs {
     from{}
-    to{height: 4.2rem;
-        width: 5.2rem;
+    to{height: 4rem;
+        width: 20rem;
     }
 }
 .image{
@@ -131,38 +131,17 @@ html{
         color: rgb(196, 184, 184);
         border-radius: 8px;
         width: 25rem;
+        margin-left:-.5rem;
     }
     .img{
         height: 2.5rem;
         width: 3rem;
-        animation: imgs 1s  infinite alternate;
+        animation: imgs 1.5s  infinite alternate;
     }
     @keyframes imgs {
         from{}
-        to{height: 2.7rem;
-            width: 3.2rem;
+        to{height: 2.5rem;
+            width: 5.7rem;
         }
     }
-     /* #navbar{
-         display: block; 
-        width: 120vw !important;
-    }
-    .fade{
-        width: 120vw;
-    }
-    .live a{
-        margin-left: 3.5rem;
-    }
-    .para1{
-        margin-left:3.5rem;
-    }
-    .img{
-        margin-left: 3.5em;
-    }
-    .fetchbtn button{
-        margin-left: 3.5rem;
-    }
-    #foot{
-        margin-left: 3.8rem;
-    } */
 } 
